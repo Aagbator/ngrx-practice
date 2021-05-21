@@ -1,0 +1,6 @@
+<div class="flex">
+  <input [(ngModel)]="value" type="number"/>
+  <button (click)="addNumber()" class="btn btn-primary btn-sm">Add Number</button>
+  <h3>{{serverName$ | async}}</h3>
+  <button (click)="changeServerName()" class="btn btn-success btn-sm">Change Server Name</button>
+</div>
